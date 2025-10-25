@@ -1,16 +1,44 @@
-# React + Vite
+🛍️ Mini E-Commerce Website (React + Fake Store API) : 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive mini e-commerce website built with React that allows users to browse products, filter by price, add items to cart, and complete checkout  all powered by the Fake Store API.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Modern React UI  Built with React, Tailwind CSS, and React Router
+✅ Product Listing  Fetches data from the Fake Store API
 
-## React Compiler
+✅ Dynamic Price Filter Filter products by price range ($1–50, $50–100, $100–200, $200+)
+✅ Add to Cart  Add and manage items with quantity and remove options
+✅ Cart Page  View selected items, update quantity, and see total
+✅ Checkout Page  Place an order with a simple form and confirmation alert
+✅ Responsive Design  Looks perfect on desktop, tablet, and mobile
+✅ LocalStorage Support  Keeps your cart data even after refreshing
+✅ Clean Folder Structure  Easy to understand and extend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧩 Tech Stack
 
-## Expanding the ESLint configuration
+React 18+
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React Router DOM
+
+Tailwind CSS
+
+Fake Store API
+
+
+screenshot : 
+
+<img width="1884" height="919" alt="Screenshot 2025-10-26 002843" src="https://github.com/user-attachments/assets/1bb4bee3-1ee7-44e2-89bf-babc31fff333" />
+
+<img width="1881" height="918" alt="Screenshot 2025-10-26 002901" src="https://github.com/user-attachments/assets/1d5b3d6f-0f6e-4c14-b7b8-c232e20f44da" />
+
+<img width="1884" height="913" alt="Screenshot 2025-10-26 002925" src="https://github.com/user-attachments/assets/e9d7db4b-37d4-4676-85be-b2a34328cf1f" />
+
+
+
+
+
+
+JavaScript (ES6+)
+
+LocalStorage (for cart persistence)
